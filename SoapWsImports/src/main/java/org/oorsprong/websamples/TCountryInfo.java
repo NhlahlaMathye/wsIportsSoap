@@ -13,22 +13,22 @@ import javax.xml.bind.annotation.XmlType;
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType name="tCountryInfo">
- *   &lt;complexContent>
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *       &lt;sequence>
- *         &lt;element name="sISOCode" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="sName" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="sCapitalCity" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="sPhoneCode" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="sContinentCode" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="sCurrencyISOCode" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="sCountryFlag" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="Languages" type="{http://www.oorsprong.org/websamples.countryinfo}ArrayOftLanguage"/>
- *       &lt;/sequence>
- *     &lt;/restriction>
- *   &lt;/complexContent>
- * &lt;/complexType>
+ * &lt;complexType name="tCountryInfo"&gt;
+ *   &lt;complexContent&gt;
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
+ *       &lt;sequence&gt;
+ *         &lt;element name="sISOCode" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="sName" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="sCapitalCity" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="sPhoneCode" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="sContinentCode" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="sCurrencyISOCode" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="sCountryFlag" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="Languages" type="{http://www.oorsprong.org/websamples.countryinfo}ArrayOftLanguage"/&gt;
+ *       &lt;/sequence&gt;
+ *     &lt;/restriction&gt;
+ *   &lt;/complexContent&gt;
+ * &lt;/complexType&gt;
  * </pre>
  * 
  * 

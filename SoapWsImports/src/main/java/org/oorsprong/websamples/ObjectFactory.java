@@ -30,11 +30,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ListOfContinentsByCodeResponse }
+     * Create an instance of {@link ListOfContinentsByName }
      * 
      */
-    public ListOfContinentsByCodeResponse createListOfContinentsByCodeResponse() {
-        return new ListOfContinentsByCodeResponse();
+    public ListOfContinentsByName createListOfContinentsByName() {
+        return new ListOfContinentsByName();
+    }
+
+    /**
+     * Create an instance of {@link ListOfContinentsByNameResponse }
+     * 
+     */
+    public ListOfContinentsByNameResponse createListOfContinentsByNameResponse() {
+        return new ListOfContinentsByNameResponse();
     }
 
     /**
@@ -46,35 +54,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link FullCountryInfo }
+     * Create an instance of {@link ListOfContinentsByCode }
      * 
      */
-    public FullCountryInfo createFullCountryInfo() {
-        return new FullCountryInfo();
+    public ListOfContinentsByCode createListOfContinentsByCode() {
+        return new ListOfContinentsByCode();
     }
 
     /**
-     * Create an instance of {@link LanguageISOCodeResponse }
+     * Create an instance of {@link ListOfContinentsByCodeResponse }
      * 
      */
-    public LanguageISOCodeResponse createLanguageISOCodeResponse() {
-        return new LanguageISOCodeResponse();
-    }
-
-    /**
-     * Create an instance of {@link CountryName }
-     * 
-     */
-    public CountryName createCountryName() {
-        return new CountryName();
-    }
-
-    /**
-     * Create an instance of {@link CountryCurrency }
-     * 
-     */
-    public CountryCurrency createCountryCurrency() {
-        return new CountryCurrency();
+    public ListOfContinentsByCodeResponse createListOfContinentsByCodeResponse() {
+        return new ListOfContinentsByCodeResponse();
     }
 
     /**
@@ -83,6 +75,46 @@ public class ObjectFactory {
      */
     public ListOfCurrenciesByName createListOfCurrenciesByName() {
         return new ListOfCurrenciesByName();
+    }
+
+    /**
+     * Create an instance of {@link ListOfCurrenciesByNameResponse }
+     * 
+     */
+    public ListOfCurrenciesByNameResponse createListOfCurrenciesByNameResponse() {
+        return new ListOfCurrenciesByNameResponse();
+    }
+
+    /**
+     * Create an instance of {@link ArrayOftCurrency }
+     * 
+     */
+    public ArrayOftCurrency createArrayOftCurrency() {
+        return new ArrayOftCurrency();
+    }
+
+    /**
+     * Create an instance of {@link ListOfCurrenciesByCode }
+     * 
+     */
+    public ListOfCurrenciesByCode createListOfCurrenciesByCode() {
+        return new ListOfCurrenciesByCode();
+    }
+
+    /**
+     * Create an instance of {@link ListOfCurrenciesByCodeResponse }
+     * 
+     */
+    public ListOfCurrenciesByCodeResponse createListOfCurrenciesByCodeResponse() {
+        return new ListOfCurrenciesByCodeResponse();
+    }
+
+    /**
+     * Create an instance of {@link CurrencyName }
+     * 
+     */
+    public CurrencyName createCurrencyName() {
+        return new CurrencyName();
     }
 
     /**
@@ -102,67 +134,43 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CapitalCityResponse }
+     * Create an instance of {@link ListOfCountryNamesByCodeResponse }
      * 
      */
-    public CapitalCityResponse createCapitalCityResponse() {
-        return new CapitalCityResponse();
+    public ListOfCountryNamesByCodeResponse createListOfCountryNamesByCodeResponse() {
+        return new ListOfCountryNamesByCodeResponse();
     }
 
     /**
-     * Create an instance of {@link ListOfCurrenciesByCode }
+     * Create an instance of {@link ArrayOftCountryCodeAndName }
      * 
      */
-    public ListOfCurrenciesByCode createListOfCurrenciesByCode() {
-        return new ListOfCurrenciesByCode();
+    public ArrayOftCountryCodeAndName createArrayOftCountryCodeAndName() {
+        return new ArrayOftCountryCodeAndName();
     }
 
     /**
-     * Create an instance of {@link CountryCurrencyResponse }
+     * Create an instance of {@link ListOfCountryNamesByName }
      * 
      */
-    public CountryCurrencyResponse createCountryCurrencyResponse() {
-        return new CountryCurrencyResponse();
+    public ListOfCountryNamesByName createListOfCountryNamesByName() {
+        return new ListOfCountryNamesByName();
     }
 
     /**
-     * Create an instance of {@link TCurrency }
+     * Create an instance of {@link ListOfCountryNamesByNameResponse }
      * 
      */
-    public TCurrency createTCurrency() {
-        return new TCurrency();
+    public ListOfCountryNamesByNameResponse createListOfCountryNamesByNameResponse() {
+        return new ListOfCountryNamesByNameResponse();
     }
 
     /**
-     * Create an instance of {@link ListOfLanguagesByCode }
+     * Create an instance of {@link ListOfCountryNamesGroupedByContinent }
      * 
      */
-    public ListOfLanguagesByCode createListOfLanguagesByCode() {
-        return new ListOfLanguagesByCode();
-    }
-
-    /**
-     * Create an instance of {@link LanguageISOCode }
-     * 
-     */
-    public LanguageISOCode createLanguageISOCode() {
-        return new LanguageISOCode();
-    }
-
-    /**
-     * Create an instance of {@link ListOfCurrenciesByCodeResponse }
-     * 
-     */
-    public ListOfCurrenciesByCodeResponse createListOfCurrenciesByCodeResponse() {
-        return new ListOfCurrenciesByCodeResponse();
-    }
-
-    /**
-     * Create an instance of {@link ArrayOftCurrency }
-     * 
-     */
-    public ArrayOftCurrency createArrayOftCurrency() {
-        return new ArrayOftCurrency();
+    public ListOfCountryNamesGroupedByContinent createListOfCountryNamesGroupedByContinent() {
+        return new ListOfCountryNamesGroupedByContinent();
     }
 
     /**
@@ -182,59 +190,27 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ListOfLanguagesByNameResponse }
+     * Create an instance of {@link CountryName }
      * 
      */
-    public ListOfLanguagesByNameResponse createListOfLanguagesByNameResponse() {
-        return new ListOfLanguagesByNameResponse();
+    public CountryName createCountryName() {
+        return new CountryName();
     }
 
     /**
-     * Create an instance of {@link ArrayOftLanguage }
+     * Create an instance of {@link CountryNameResponse }
      * 
      */
-    public ArrayOftLanguage createArrayOftLanguage() {
-        return new ArrayOftLanguage();
+    public CountryNameResponse createCountryNameResponse() {
+        return new CountryNameResponse();
     }
 
     /**
-     * Create an instance of {@link ListOfContinentsByName }
+     * Create an instance of {@link CountryISOCode }
      * 
      */
-    public ListOfContinentsByName createListOfContinentsByName() {
-        return new ListOfContinentsByName();
-    }
-
-    /**
-     * Create an instance of {@link ListOfCountryNamesByCodeResponse }
-     * 
-     */
-    public ListOfCountryNamesByCodeResponse createListOfCountryNamesByCodeResponse() {
-        return new ListOfCountryNamesByCodeResponse();
-    }
-
-    /**
-     * Create an instance of {@link ArrayOftCountryCodeAndName }
-     * 
-     */
-    public ArrayOftCountryCodeAndName createArrayOftCountryCodeAndName() {
-        return new ArrayOftCountryCodeAndName();
-    }
-
-    /**
-     * Create an instance of {@link FullCountryInfoAllCountriesResponse }
-     * 
-     */
-    public FullCountryInfoAllCountriesResponse createFullCountryInfoAllCountriesResponse() {
-        return new FullCountryInfoAllCountriesResponse();
-    }
-
-    /**
-     * Create an instance of {@link ArrayOftCountryInfo }
-     * 
-     */
-    public ArrayOftCountryInfo createArrayOftCountryInfo() {
-        return new ArrayOftCountryInfo();
+    public CountryISOCode createCountryISOCode() {
+        return new CountryISOCode();
     }
 
     /**
@@ -246,35 +222,43 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CountryIntPhoneCodeResponse }
+     * Create an instance of {@link CapitalCity }
      * 
      */
-    public CountryIntPhoneCodeResponse createCountryIntPhoneCodeResponse() {
-        return new CountryIntPhoneCodeResponse();
+    public CapitalCity createCapitalCity() {
+        return new CapitalCity();
     }
 
     /**
-     * Create an instance of {@link CountriesUsingCurrency }
+     * Create an instance of {@link CapitalCityResponse }
      * 
      */
-    public CountriesUsingCurrency createCountriesUsingCurrency() {
-        return new CountriesUsingCurrency();
+    public CapitalCityResponse createCapitalCityResponse() {
+        return new CapitalCityResponse();
     }
 
     /**
-     * Create an instance of {@link CountryFlagResponse }
+     * Create an instance of {@link CountryCurrency }
      * 
      */
-    public CountryFlagResponse createCountryFlagResponse() {
-        return new CountryFlagResponse();
+    public CountryCurrency createCountryCurrency() {
+        return new CountryCurrency();
     }
 
     /**
-     * Create an instance of {@link ListOfCountryNamesByNameResponse }
+     * Create an instance of {@link CountryCurrencyResponse }
      * 
      */
-    public ListOfCountryNamesByNameResponse createListOfCountryNamesByNameResponse() {
-        return new ListOfCountryNamesByNameResponse();
+    public CountryCurrencyResponse createCountryCurrencyResponse() {
+        return new CountryCurrencyResponse();
+    }
+
+    /**
+     * Create an instance of {@link TCurrency }
+     * 
+     */
+    public TCurrency createTCurrency() {
+        return new TCurrency();
     }
 
     /**
@@ -286,11 +270,35 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CountryNameResponse }
+     * Create an instance of {@link CountryFlagResponse }
      * 
      */
-    public CountryNameResponse createCountryNameResponse() {
-        return new CountryNameResponse();
+    public CountryFlagResponse createCountryFlagResponse() {
+        return new CountryFlagResponse();
+    }
+
+    /**
+     * Create an instance of {@link CountryIntPhoneCode }
+     * 
+     */
+    public CountryIntPhoneCode createCountryIntPhoneCode() {
+        return new CountryIntPhoneCode();
+    }
+
+    /**
+     * Create an instance of {@link CountryIntPhoneCodeResponse }
+     * 
+     */
+    public CountryIntPhoneCodeResponse createCountryIntPhoneCodeResponse() {
+        return new CountryIntPhoneCodeResponse();
+    }
+
+    /**
+     * Create an instance of {@link FullCountryInfo }
+     * 
+     */
+    public FullCountryInfo createFullCountryInfo() {
+        return new FullCountryInfo();
     }
 
     /**
@@ -310,91 +318,35 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CountryIntPhoneCode }
+     * Create an instance of {@link FullCountryInfoAllCountries }
      * 
      */
-    public CountryIntPhoneCode createCountryIntPhoneCode() {
-        return new CountryIntPhoneCode();
+    public FullCountryInfoAllCountries createFullCountryInfoAllCountries() {
+        return new FullCountryInfoAllCountries();
     }
 
     /**
-     * Create an instance of {@link CurrencyName }
+     * Create an instance of {@link FullCountryInfoAllCountriesResponse }
      * 
      */
-    public CurrencyName createCurrencyName() {
-        return new CurrencyName();
+    public FullCountryInfoAllCountriesResponse createFullCountryInfoAllCountriesResponse() {
+        return new FullCountryInfoAllCountriesResponse();
     }
 
     /**
-     * Create an instance of {@link ListOfLanguagesByCodeResponse }
+     * Create an instance of {@link ArrayOftCountryInfo }
      * 
      */
-    public ListOfLanguagesByCodeResponse createListOfLanguagesByCodeResponse() {
-        return new ListOfLanguagesByCodeResponse();
+    public ArrayOftCountryInfo createArrayOftCountryInfo() {
+        return new ArrayOftCountryInfo();
     }
 
     /**
-     * Create an instance of {@link ListOfCurrenciesByNameResponse }
+     * Create an instance of {@link CountriesUsingCurrency }
      * 
      */
-    public ListOfCurrenciesByNameResponse createListOfCurrenciesByNameResponse() {
-        return new ListOfCurrenciesByNameResponse();
-    }
-
-    /**
-     * Create an instance of {@link CapitalCity }
-     * 
-     */
-    public CapitalCity createCapitalCity() {
-        return new CapitalCity();
-    }
-
-    /**
-     * Create an instance of {@link ListOfLanguagesByName }
-     * 
-     */
-    public ListOfLanguagesByName createListOfLanguagesByName() {
-        return new ListOfLanguagesByName();
-    }
-
-    /**
-     * Create an instance of {@link LanguageNameResponse }
-     * 
-     */
-    public LanguageNameResponse createLanguageNameResponse() {
-        return new LanguageNameResponse();
-    }
-
-    /**
-     * Create an instance of {@link ListOfContinentsByNameResponse }
-     * 
-     */
-    public ListOfContinentsByNameResponse createListOfContinentsByNameResponse() {
-        return new ListOfContinentsByNameResponse();
-    }
-
-    /**
-     * Create an instance of {@link ListOfCountryNamesGroupedByContinent }
-     * 
-     */
-    public ListOfCountryNamesGroupedByContinent createListOfCountryNamesGroupedByContinent() {
-        return new ListOfCountryNamesGroupedByContinent();
-    }
-
-    /**
-     * Create an instance of {@link LanguageName }
-     * 
-     */
-    public LanguageName createLanguageName() {
-        return new LanguageName();
-    }
-
-    /**
-     * Create an instance of {@link ListOfCountryNamesByName }
-     * 
-     */
-    public ListOfCountryNamesByName createListOfCountryNamesByName() {
-        return new ListOfCountryNamesByName();
+    public CountriesUsingCurrency createCountriesUsingCurrency() {
+        return new CountriesUsingCurrency();
     }
 
     /**
@@ -406,27 +358,83 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CountryISOCode }
+     * Create an instance of {@link ListOfLanguagesByName }
      * 
      */
-    public CountryISOCode createCountryISOCode() {
-        return new CountryISOCode();
+    public ListOfLanguagesByName createListOfLanguagesByName() {
+        return new ListOfLanguagesByName();
     }
 
     /**
-     * Create an instance of {@link FullCountryInfoAllCountries }
+     * Create an instance of {@link ListOfLanguagesByNameResponse }
      * 
      */
-    public FullCountryInfoAllCountries createFullCountryInfoAllCountries() {
-        return new FullCountryInfoAllCountries();
+    public ListOfLanguagesByNameResponse createListOfLanguagesByNameResponse() {
+        return new ListOfLanguagesByNameResponse();
     }
 
     /**
-     * Create an instance of {@link ListOfContinentsByCode }
+     * Create an instance of {@link ArrayOftLanguage }
      * 
      */
-    public ListOfContinentsByCode createListOfContinentsByCode() {
-        return new ListOfContinentsByCode();
+    public ArrayOftLanguage createArrayOftLanguage() {
+        return new ArrayOftLanguage();
+    }
+
+    /**
+     * Create an instance of {@link ListOfLanguagesByCode }
+     * 
+     */
+    public ListOfLanguagesByCode createListOfLanguagesByCode() {
+        return new ListOfLanguagesByCode();
+    }
+
+    /**
+     * Create an instance of {@link ListOfLanguagesByCodeResponse }
+     * 
+     */
+    public ListOfLanguagesByCodeResponse createListOfLanguagesByCodeResponse() {
+        return new ListOfLanguagesByCodeResponse();
+    }
+
+    /**
+     * Create an instance of {@link LanguageName }
+     * 
+     */
+    public LanguageName createLanguageName() {
+        return new LanguageName();
+    }
+
+    /**
+     * Create an instance of {@link LanguageNameResponse }
+     * 
+     */
+    public LanguageNameResponse createLanguageNameResponse() {
+        return new LanguageNameResponse();
+    }
+
+    /**
+     * Create an instance of {@link LanguageISOCode }
+     * 
+     */
+    public LanguageISOCode createLanguageISOCode() {
+        return new LanguageISOCode();
+    }
+
+    /**
+     * Create an instance of {@link LanguageISOCodeResponse }
+     * 
+     */
+    public LanguageISOCodeResponse createLanguageISOCodeResponse() {
+        return new LanguageISOCodeResponse();
+    }
+
+    /**
+     * Create an instance of {@link TContinent }
+     * 
+     */
+    public TContinent createTContinent() {
+        return new TContinent();
     }
 
     /**
@@ -438,14 +446,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link TLanguage }
-     * 
-     */
-    public TLanguage createTLanguage() {
-        return new TLanguage();
-    }
-
-    /**
      * Create an instance of {@link TCountryCodeAndNameGroupedByContinent }
      * 
      */
@@ -454,11 +454,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link TContinent }
+     * Create an instance of {@link TLanguage }
      * 
      */
-    public TContinent createTContinent() {
-        return new TContinent();
+    public TLanguage createTLanguage() {
+        return new TLanguage();
     }
 
 }
